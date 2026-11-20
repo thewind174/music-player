@@ -1,0 +1,15 @@
+app-header{
+    grid-area:'header';
+}
+
+app-slide-bar{
+    grid-area: 'slide';
+}
+
+app-main{
+    grid-area: 'main';
+}
+
+app-footer{
+    grid-area: 'footer';
+}
