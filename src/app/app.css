@@ -1,15 +1,15 @@
-app-header{
-    grid-area:'header';
+app-header {
+    grid-area: header;
 }
 
-app-slide-bar{
-    grid-area: 'slide';
+app-slide-bar {
+    grid-area: slide;
 }
 
-app-main{
-    grid-area: 'main';
+app-main {
+    grid-area: main;
 }
 
-app-footer{
-    grid-area: 'footer';
+app-footer {
+    grid-area: footer;
 }

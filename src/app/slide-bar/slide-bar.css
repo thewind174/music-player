@@ -1,0 +1,33 @@
+#slidebar {
+    height: 99vh;
+    width: 7vw;
+    box-sizing: border-box;
+    padding: 1vh 1em;
+    background-color: none;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: blueviolet;
+
+}
+
+#slidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#slidebar>ul>li:first-child {
+    text-align: center;
+}
+
+#slidebar a,
+#slidebar .logo {
+    border-radius: .5em;
+    padding: .85em;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}

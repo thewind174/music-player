@@ -9,9 +9,12 @@ body {
 }
 
 
-app-root{
+app-root {
   display: grid;
-  grid-template-areas: 'header header header'
-                       'slide main main'
-                       'footer footer footer';
+  grid-template-columns: auto 45% 45%;
+  grid-template-rows: 10% 50% 40%;
+  grid-template-areas:
+    'slide header header'
+    'slide main main'
+    'slide footer footer';
 }
